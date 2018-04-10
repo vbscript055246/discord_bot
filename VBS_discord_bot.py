@@ -3,14 +3,7 @@ from discord.ext import commands
 from bs4 import BeautifulSoup
 import requests
 import re
-
-#if not discord.opus.is_loaded():
-    # the 'opus' library here is opus.dll on windows
-    # or libopus.so on linux in the current directory
-    # you should replace this with the location the
-    # opus library is located in and with the proper filename.
-    # note that on windows this DLL is automatically provided for you
-    #discord.opus.load_opus('libopus-0.x64.dll')
+from discord.opus import OpusNotLoaded
 
 # Client = discord.Client()
 prefix = "!"
