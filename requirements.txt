@@ -4,4 +4,6 @@ requests
 youtube_dl
 PyNaCl
 discord.py[voice]
-opus_api
+aiohttp
+websockets
+asyncio
