@@ -6,8 +6,9 @@ import re
 import asyncio
 
 if not discord.opus.is_loaded():
-    discord.opus.load_opus('libopus-0.dll')
     print("loading~")
+    discord.opus.load_opus('libopus-0')
+    
 
 print("should done~")
 # Client = discord.Client()
