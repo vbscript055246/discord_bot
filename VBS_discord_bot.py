@@ -3,7 +3,7 @@ from discord.ext import commands
 from bs4 import BeautifulSoup
 import requests
 import re
-from .opus_loader import load_opus_lib
+from opus_loader import load_opus_lib
 
 print("loading~")
 load_opus_lib()
