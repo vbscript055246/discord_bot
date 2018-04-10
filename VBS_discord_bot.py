@@ -12,6 +12,7 @@ if not opus.is_loaded():
     for opus_lib in OPUS_LIBS:
         try:
             opus.load_opus(opus_lib)
+            print("get~")
             break
         except OSError:
             pass

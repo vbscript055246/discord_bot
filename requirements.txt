@@ -7,3 +7,5 @@ discord.py[voice]
 aiohttp
 websockets
 asyncio
+opus
+opuslib
