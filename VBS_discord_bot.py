@@ -7,7 +7,7 @@ import asyncio
 
 if not discord.opus.is_loaded():
     print("loading~")
-    discord.opus.load_opus('libopus-0')
+    discord.opus.load_opus('include')
     
 
 print("should done~")
