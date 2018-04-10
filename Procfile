@@ -1,1 +1,1 @@
-worker: python VBS_discord_bot
+worker: python VBS_discord_bot.py
