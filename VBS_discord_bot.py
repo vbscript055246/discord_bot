@@ -3,12 +3,10 @@ from discord.ext import commands
 from bs4 import BeautifulSoup
 import requests
 import re
-import asyncio
+from .opus_loader import load_opus_lib
 
-if not discord.opus.is_loaded():
-    print("loading~")
-    discord.opus.load_opus('libopus-0.x64.dll')
-    
+print("loading~")
+load_opus_lib()
 
 print("should done~")
 # Client = discord.Client()
