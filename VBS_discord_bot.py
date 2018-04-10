@@ -7,7 +7,7 @@ import asyncio
 
 if not discord.opus.is_loaded():
     print("loading~")
-    discord.opus.load_opus('opus_sm-master')
+    discord.opus.load_opus('/tmp/opus-build/opus_sm-master/')
     
 
 print("should done~")
