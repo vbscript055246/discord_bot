@@ -1,0 +1,1 @@
+web gunicorn VBS_discord_bot:app
