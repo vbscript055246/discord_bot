@@ -7,7 +7,7 @@ import asyncio
 
 if not discord.opus.is_loaded():
     print("loading~")
-    discord.opus.load_opus('/tmp/opus-build/opus_sm-master/')
+    discord.opus.load_opus('libopus-0.x64.dll')
     
 
 print("should done~")
