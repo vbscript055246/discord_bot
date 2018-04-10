@@ -1,1 +1,1 @@
-web gunicorn VBS_discord_bot
+worker gunicorn VBS_discord_bot
