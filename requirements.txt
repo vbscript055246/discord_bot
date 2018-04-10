@@ -1,4 +1,5 @@
 discord
 beautifulsoup4
 requests
-gunicorn
+youtube_dl
+PyNaCl
