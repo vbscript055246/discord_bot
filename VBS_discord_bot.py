@@ -8,7 +8,7 @@ from discord import opus
 OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll', 'libopus-0.dll', 'libopus.so.0', 'libopus.0.dylib']
 
 if not opus.is_loaded():
-    for opus_lib in opus_libs:
+    for opus_lib in OPUS_LIBS:
         try:
             opus.load_opus(opus_lib)
             break
