@@ -4,18 +4,9 @@ from bs4 import BeautifulSoup
 import requests
 import re
 import asyncio
-from discord import opus
 
-OPUS_LIBS = ['libopus-0.x86.dll', 'libopus-0.x64.dll', 'libopus-0.dll', 'libopus.so.0', 'libopus.0.dylib']
-
-if not opus.is_loaded():
-    for opus_lib in OPUS_LIBS:
-        try:
-            opus.load_opus(opus_lib)
-            print("get~")
-            break
-        except OSError:
-            pass
+if not discord.opus.is_loaded():
+    discord.opus.load_opus('./opus/libopus-0.dll')
 
 print("should done~")
 # Client = discord.Client()
